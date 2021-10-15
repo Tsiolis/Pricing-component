@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+
+</head>
+<body>
+
+
+	<div class="input-container">
+		<div class="heading">
+		<h1>Simple, traffic-based pricing</h1>
+		<p>Sign-up for our 30-day trial. No credit card required. </p>
+		</div>
+				<div class="input-card">
+								<div class="output-container">
+									<div><p id="views"></p></div>
+									<div class="cost-per-term">$<p id="cost"></p><span id="term"></span></div>
+								</div>
+							
+							<div class="slider-container">
+								<input id="slider" class="views-slider" type="range"  name="volume"
+								min="0" value="0" max="5">
+								<div class="billing">
+									<p>Monthly billing</p>
+									<label class="switch">
+										<input id="toggle" type="checkbox">
+										<span class="slider round"></span>
+									</label>
+									<p>Yearly billing <span class="discount">25% discount</span></p>
+								</div>
+								
+							 </div>
+							 <div class="line"></div>
+							 <div class="bottom-container">
+								 <div class="benefits">
+									 <p><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+									Unlimited websites
+									</p>
+									 <p><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+										100% data ownership</p>
+									 <p><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+										Email reports</p>
+								 </div>
+								 <div class="button">
+									 <button>Start my trial</button>
+								 </div>
+							 </div>
+						   </div>
+							 
+
+	             </div>
+							
+						
+ 
+
+
+<script src="app.js"></script>
+</body>
+</html>
